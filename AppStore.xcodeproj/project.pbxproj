@@ -20,6 +20,18 @@
 		787F89762972AA000064D1CF /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89752972AA000064D1CF /* TodayCollectionViewCell.swift */; };
 		787F89782972C10B0064D1CF /* TodayCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89772972C10A0064D1CF /* TodayCollectionHeaderView.swift */; };
 		787F897B2972C8A80064D1CF /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F897A2972C8A80064D1CF /* AppViewController.swift */; };
+		787F897E2972DB330064D1CF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 787F897D2972DB330064D1CF /* SnapKit */; };
+		787F89802972E29E0064D1CF /* FeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F897F2972E29E0064D1CF /* FeatureSectionView.swift */; };
+		787F89822972EE3D0064D1CF /* FeatureSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89812972EE3D0064D1CF /* FeatureSectionCollectionViewCell.swift */; };
+		787F89842972F59B0064D1CF /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89832972F59B0064D1CF /* SeparatorView.swift */; };
+		787F89862972F7F90064D1CF /* RankingFeatureSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89852972F7F90064D1CF /* RankingFeatureSectionView.swift */; };
+		787F89882972FB410064D1CF /* RankingFeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89872972FB410064D1CF /* RankingFeatureCollectionViewCell.swift */; };
+		787F898A2972FDB30064D1CF /* ExchangeCodeButtonVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F89892972FDB30064D1CF /* ExchangeCodeButtonVIew.swift */; };
+		787F898C2973FF180064D1CF /* AppdetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F898B2973FF180064D1CF /* AppdetailViewController.swift */; };
+		787F898E297403E70064D1CF /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 787F898D297403E70064D1CF /* Data */; };
+		787F89902974049A0064D1CF /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F898F2974049A0064D1CF /* Today.swift */; };
+		787F8992297405450064D1CF /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F8991297405450064D1CF /* Feature.swift */; };
+		787F8994297405660064D1CF /* RankingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787F8993297405660064D1CF /* RankingFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +68,17 @@
 		787F89752972AA000064D1CF /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
 		787F89772972C10A0064D1CF /* TodayCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayCollectionHeaderView.swift; sourceTree = "<group>"; };
 		787F897A2972C8A80064D1CF /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		787F897F2972E29E0064D1CF /* FeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionView.swift; sourceTree = "<group>"; };
+		787F89812972EE3D0064D1CF /* FeatureSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		787F89832972F59B0064D1CF /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		787F89852972F7F90064D1CF /* RankingFeatureSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureSectionView.swift; sourceTree = "<group>"; };
+		787F89872972FB410064D1CF /* RankingFeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingFeatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		787F89892972FDB30064D1CF /* ExchangeCodeButtonVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeCodeButtonVIew.swift; sourceTree = "<group>"; };
+		787F898B2973FF180064D1CF /* AppdetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppdetailViewController.swift; sourceTree = "<group>"; };
+		787F898D297403E70064D1CF /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		787F898F2974049A0064D1CF /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		787F8991297405450064D1CF /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		787F8993297405660064D1CF /* RankingFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingFeature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				787F896A29728B9B0064D1CF /* Kingfisher in Frameworks */,
+				787F897E2972DB330064D1CF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +131,8 @@
 		787F8937297286380064D1CF /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				787F8995297405850064D1CF /* Model */,
+				787F898D297403E70064D1CF /* Data */,
 				787F8938297286380064D1CF /* AppDelegate.swift */,
 				787F893A297286380064D1CF /* SceneDelegate.swift */,
 				787F897129728FFD0064D1CF /* Scenes */,
@@ -140,6 +166,7 @@
 				787F89792972C8960064D1CF /* app */,
 				787F8972297290310064D1CF /* today */,
 				787F893C297286380064D1CF /* TabBarController.swift */,
+				787F898B2973FF180064D1CF /* AppdetailViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -158,8 +185,24 @@
 			isa = PBXGroup;
 			children = (
 				787F897A2972C8A80064D1CF /* AppViewController.swift */,
+				787F897F2972E29E0064D1CF /* FeatureSectionView.swift */,
+				787F89812972EE3D0064D1CF /* FeatureSectionCollectionViewCell.swift */,
+				787F89832972F59B0064D1CF /* SeparatorView.swift */,
+				787F89852972F7F90064D1CF /* RankingFeatureSectionView.swift */,
+				787F89872972FB410064D1CF /* RankingFeatureCollectionViewCell.swift */,
+				787F89892972FDB30064D1CF /* ExchangeCodeButtonVIew.swift */,
 			);
 			path = app;
+			sourceTree = "<group>";
+		};
+		787F8995297405850064D1CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				787F898F2974049A0064D1CF /* Today.swift */,
+				787F8991297405450064D1CF /* Feature.swift */,
+				787F8993297405660064D1CF /* RankingFeature.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +223,7 @@
 			name = AppStore;
 			packageProductDependencies = (
 				787F896929728B9B0064D1CF /* Kingfisher */,
+				787F897D2972DB330064D1CF /* SnapKit */,
 			);
 			productName = AppStore;
 			productReference = 787F8935297286380064D1CF /* AppStore.app */;
@@ -256,6 +300,7 @@
 			packageReferences = (
 				787F896829728B9B0064D1CF /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				787F897029728E220064D1CF /* XCRemoteSwiftPackageReference "SnapKit" */,
+				787F897C2972DB330064D1CF /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 787F8936297286380064D1CF /* Products */;
 			projectDirPath = "";
@@ -273,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787F898E297403E70064D1CF /* Data in Resources */,
 				787F8945297286390064D1CF /* LaunchScreen.storyboard in Resources */,
 				787F8942297286390064D1CF /* Assets.xcassets in Resources */,
 			);
@@ -299,13 +345,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787F89842972F59B0064D1CF /* SeparatorView.swift in Sources */,
+				787F89902974049A0064D1CF /* Today.swift in Sources */,
 				787F8974297290440064D1CF /* TodayViewController.swift in Sources */,
 				787F89762972AA000064D1CF /* TodayCollectionViewCell.swift in Sources */,
+				787F8994297405660064D1CF /* RankingFeature.swift in Sources */,
+				787F8992297405450064D1CF /* Feature.swift in Sources */,
 				787F893D297286380064D1CF /* TabBarController.swift in Sources */,
 				787F89782972C10B0064D1CF /* TodayCollectionHeaderView.swift in Sources */,
 				787F897B2972C8A80064D1CF /* AppViewController.swift in Sources */,
+				787F89822972EE3D0064D1CF /* FeatureSectionCollectionViewCell.swift in Sources */,
 				787F8939297286380064D1CF /* AppDelegate.swift in Sources */,
 				787F893B297286380064D1CF /* SceneDelegate.swift in Sources */,
+				787F89802972E29E0064D1CF /* FeatureSectionView.swift in Sources */,
+				787F89882972FB410064D1CF /* RankingFeatureCollectionViewCell.swift in Sources */,
+				787F898C2973FF180064D1CF /* AppdetailViewController.swift in Sources */,
+				787F898A2972FDB30064D1CF /* ExchangeCodeButtonVIew.swift in Sources */,
+				787F89862972F7F90064D1CF /* RankingFeatureSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,7 +665,7 @@
 				787F895E297286390064D1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		787F895F297286390064D1CF /* Build configuration list for PBXNativeTarget "AppStore" */ = {
 			isa = XCConfigurationList;
@@ -618,7 +674,7 @@
 				787F8961297286390064D1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		787F8962297286390064D1CF /* Build configuration list for PBXNativeTarget "AppStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -627,7 +683,7 @@
 				787F8964297286390064D1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		787F8965297286390064D1CF /* Build configuration list for PBXNativeTarget "AppStoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -636,7 +692,7 @@
 				787F8967297286390064D1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
@@ -657,6 +713,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		787F897C2972DB330064D1CF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -664,6 +728,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 787F896829728B9B0064D1CF /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		787F897D2972DB330064D1CF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 787F897C2972DB330064D1CF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
